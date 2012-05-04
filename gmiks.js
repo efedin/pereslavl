@@ -18,7 +18,7 @@ var ikData = [
 var getMapYaCentered = function() {
 	return (new google.maps.Map(document.getElementById('map'),
 	{
-		zoom: 12,
+		zoom: 13,
 		center: new google.maps.LatLng(56.738133, 38.856153),
 		mapTypeId: google.maps.MapTypeId.ROADMAP
 	}));
